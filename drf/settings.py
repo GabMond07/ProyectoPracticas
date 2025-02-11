@@ -82,7 +82,7 @@ WSGI_APPLICATION = 'drf.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME':'/var/lib/db/db.sqlite3',
+        'NAME':'db.sqlite3',
     }
 }
 
